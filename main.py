@@ -11,6 +11,7 @@ def main():
     print("2. Hausa")
     print("3. Khana")
     print("4. Igala")
+    print("5. idoma")
 
     choice = input("Choose a language (1/2/3/4): ")
     word = input("Enter a word in English: ").lower()
