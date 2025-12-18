@@ -1,4 +1,4 @@
-yoruba_dictionary = {
+yoruba_dict = {
     "baba": "Father",
     "iya": "Mother",
     "omo": "Child",
@@ -19,4 +19,5 @@ yoruba_dictionary = {
     "oba": "king",
     "igbese": "step",
     "ayo": "joy"
+
 }
