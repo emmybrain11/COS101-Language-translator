@@ -13,7 +13,7 @@ def main():
     print("4. Igala")
     print("5. idoma")
 
-    choice = input("Choose a language (1/2/3/4): ")
+    choice = input("Choose a language (1/2/3/4/5): ")
     word = input("Enter a word in English: ").lower()
 
     if choice == "1":
@@ -27,6 +27,8 @@ def main():
 
     elif choice == "4":
         print("Igala:", igala_dict.get(word, "Word not found"))
+    elif choice == "5":
+        print("idoma:", idoma_dict.get(word, "Word not found"))
 
     else:
         print("Invalid choice")
