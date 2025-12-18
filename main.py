@@ -2,6 +2,7 @@ from yoruba import yoruba_dict
 from hausa import hausa_dict
 from khana import khana_dict
 from igala import igala_dict
+from idoma import idoma_dict
 
 def main():
     print("WELCOME TO COS 101 LANGUAGE TRANSLATOR")
