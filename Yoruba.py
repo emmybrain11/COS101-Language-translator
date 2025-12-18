@@ -20,10 +20,3 @@ yoruba_dictionary = {
     "igbese": "step",
     "ayo": "joy"
 }
-print("YORUBA DICTIONARY")
-print("_________________")
-
-word = input("Enter a Yoruba word:").capitalize()
-
-print(f"yhe meaning of '[word]' is:{yoruba_dictionary[word]}")
-print("sorry, word not found in the dictionary.")
