@@ -18,6 +18,7 @@ hausa_dict = {
     "food" : "abinci",
     "football" : "kwallon kafa",
     "play" : "wasa",
-
+    "sport" : "wasanni",
 }
+
 
