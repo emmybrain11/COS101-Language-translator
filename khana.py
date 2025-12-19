@@ -13,4 +13,10 @@ khana_dict = {
      "goodbye": "doowo",
      "welcome":  "̀o_eluwa",
      "how about you": "oledoduwa",
+     "school": "tor-kpa",
+     "teacher": "ne-torgenu".
+     "run": "kpughi".
+     "market": "ke-du",
+     "time": "sor"
 }
+
