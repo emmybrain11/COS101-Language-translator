@@ -19,6 +19,5 @@ hausa_dict = {
     "football" : "kwallon kafa",
     "play" : "wasa",
     "sport" : "wasanni",
+
 }
-
-
