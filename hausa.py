@@ -26,4 +26,3 @@ hausa_dict = {
     "computer" : "kwamfuta",
 
 }
-
