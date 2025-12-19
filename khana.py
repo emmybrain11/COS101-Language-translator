@@ -1,0 +1,16 @@
+khana_dict = {
+     "hello": "kana mue",
+     "good morning": "dee a_yira",
+     "good afternoon":  "kana mue sɔ̀ɔ pye",
+     "good evening": "kana mue ɔ̀ɔne",
+     "good night":  "̀dee ayira",
+     "how are you": "ododowa",
+     "i am fine": "nlele",
+     "thank you":  "ɔ̀ɔyaà",
+     "Please":  "soso",
+     "yes": "mmm",
+     "no": "nm_nm",
+     "goodbye": "doowo",
+     "welcome":  "̀o_eluwa",
+     "how about you": "oledoduwa",
+}
