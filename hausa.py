@@ -18,11 +18,6 @@ hausa_dict = {
     "food" : "abinci",
     "football" : "kwallon kafa",
     "play" : "wasa",
-    "sport" : "wasanni",
-    "vehicle" : "abin hawa",
-    "time" : "lokaci",
-    "school" : "makaranta",
-    "christmas" : "kirsimeti",
-    "computer" : "kwamfuta",
 
 }
+
