@@ -1,2 +1,22 @@
-# COS101-Language-translator
-English to Nigerian language translator (cos 101 group project)
+idoma_dict = {
+    "hello": "ale",
+    "good morning": "ojale",
+    "good evening": "ojẹlẹ",
+    "thank you": "kpo",
+    "water": "omi",
+    "food": "ije",
+    "house": "efu",
+    "come": "wa",
+    "go": "lo",
+    "man": "oma",
+    "woman": "onye",
+    "child": "onye kekere",
+    "father": "ata",
+    "mother": "inya",
+    "sun": "ojo",
+    "moon": "oshupa",
+    "fire": "ina",
+    "book": "iwe",
+    "school": "ile-iwe",
+    "love": "ife"
+}
