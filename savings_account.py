@@ -1,5 +1,4 @@
 from Account import Account
-
 class Savings(Account):
     def __init__(self, owner, balance=0):
         super().__init__(owner, balance)
@@ -11,7 +10,6 @@ class Savings(Account):
         if amount > self.withdraw_limit:
             print(f"Withdrawal denied. Requested amount ({amount}) exceeds the withdrawal limit of {self.withdraw_limit}.")
         else:
-            # If the limit check passes, rely on the base class for the transaction logic
             super().withdraw(amount)
 
     def apply_interest(self):
@@ -19,18 +17,15 @@ class Savings(Account):
         self.deposit(interest)
         print(f"Interest of {interest} applied. New balance: {self.get_balance()}")
 
-# Test the Savings account implementation
 print("---Savings Account---")
 savings = Savings("Alice", 1000)
 print(f"Initial balance: {savings.get_balance()}")
 
 savings.deposit(500)
 
-# This should fail due to the new withdrawal limit override
 print("\n---Attempting to withdraw 200---")
 savings.withdraw(200)
 
-# This should succeed and process via the base class
 print("\n---Attempting to withdraw 50---")
 savings.withdraw(50)
 

@@ -1,6 +1,9 @@
+
 import streamlit as st
+
 st.set_page_config(page_title="COS 101 Group Dictionary", page_icon="📖", layout="wide")
 
+# Custom CSS for polished interface
 st.markdown("""
     <style>
     .main { background-color: #f5f7f9; }
